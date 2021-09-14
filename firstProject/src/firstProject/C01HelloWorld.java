@@ -2,7 +2,7 @@ package firstProject;
 
 import java.util.Scanner;
 
-public class HelloWorld {
+public class C01HelloWorld {
    public static void main(String[] args) {
 	   Scanner scn = new Scanner(System.in);
 	  System.out.println("Hello World");
