@@ -41,10 +41,12 @@ public class C12Main {
 		
 		return cnt;
 	}
-	public static void studentName (int[] ary) {
+	public static void studentName (String ary[]) {
+		
 		for(int i=0; i<ary.length;i++) {
-			System.out.printf("%d의 학생이름 : %s",i,ary[i] );
+			ary[i] = 
 		}
+		System.out.printf("%d의 학생이름 : %s",i,ary[i] );
 	}
 
 }
