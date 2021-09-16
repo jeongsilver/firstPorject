@@ -1,4 +1,4 @@
-package firstProject;
+package c01firstProject;
 
 // byte < short < int < long < float <double
 

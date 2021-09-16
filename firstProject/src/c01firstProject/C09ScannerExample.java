@@ -1,4 +1,4 @@
-package firstProject;
+package c01firstProject;
 // firstProject.ScannerExample
 import java.util.Scanner;
 

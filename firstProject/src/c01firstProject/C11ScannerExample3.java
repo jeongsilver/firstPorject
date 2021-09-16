@@ -1,4 +1,4 @@
-package firstProject;
+package c01firstProject;
 
 import java.util.Scanner;
 

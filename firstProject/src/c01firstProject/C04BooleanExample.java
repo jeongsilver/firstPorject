@@ -1,4 +1,4 @@
-package firstProject;
+package c01firstProject;
 
 public class C04BooleanExample {
 

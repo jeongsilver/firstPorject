@@ -58,23 +58,29 @@ public class C10DowhileExe {
 		//그 때의 sum 값을 출력.. 몇번 실행을 했는지 보여주기
 		
 		int sum=0;
-//		int i=0;
-//		boolean run = false;
+		int i=0;
+		boolean run = false;
 		int random = (int)(Math.random()*10)+1;
+		do {
+		for(;;i++) {
+				sum+=random;
+				if(sum>=100) {
+					sum+=random;
+					break;
+						}
+		}
+			
+		}while(run);
+		System.out.printf("%d번째 랜덤 합: %d",i,sum);
+		
+		
 //		do {
-//				sum+=random;
-//				if(sum<=100) {
-//					sum+=random;
-//					continue;
-//						}
-//			
-//		}while(run);
+//			sum+=random;
+//			continue;
+//		}while(sum>=100);
 //		System.out.printf("%d번째 랜덤 합: %d",i,sum);
 		
-		for(int i=0;i<=10;i++) {
-			sum+=random;
-			
-		}
+		
 		
 		
 	}

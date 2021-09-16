@@ -1,4 +1,4 @@
-package operator;
+package c02operator;
 
 public class C01OperatorExample {
 
